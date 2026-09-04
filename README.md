@@ -242,8 +242,13 @@ barato arreglarlo.
 
 ## Sobre el autor
 
-Giancarlo Palomino — Quality Engineer. Diez años construyendo y liderando automatización de
-pruebas en banca, fintech y salud.
+Escrito por **Giancarlo Palomino** — Quality Engineer, diez años construyendo y liderando
+automatización de pruebas en banca, fintech y salud.
+[LinkedIn](https://www.linkedin.com/in/girekpalomino/)
+
+Forma parte de **Girek Study**, donde publico material abierto sobre automatización de
+pruebas: frameworks que se pueden copiar, decisiones de diseño explicadas y, más adelante,
+clases en vivo.
 
 Si usas esto y algo te resulta incómodo, abre un issue: el diseño mejora con casos reales
 que no anticipé.
