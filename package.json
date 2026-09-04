@@ -1,0 +1,37 @@
+{
+  "name": "playwright-screenplay-ts",
+  "version": "1.0.0",
+  "description": "El patrón Screenplay sobre Playwright y TypeScript, sin Serenity ni dependencias externas.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "demo": "node scripts/serve-demo.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "screenplay",
+    "typescript",
+    "test-automation",
+    "qa",
+    "e2e"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

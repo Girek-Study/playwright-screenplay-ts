@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tareas — app de ejemplo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="marco">
+      <section id="pantalla-login" data-testid="pantalla-login">
+        <h1>Tareas</h1>
+        <p class="ayuda">
+          App de ejemplo para ejercitar la suite. Usuario <code>demo</code>, clave <code>demo123</code>.
+        </p>
+
+        <form id="form-login" novalidate>
+          <label for="usuario">Usuario</label>
+          <input id="usuario" data-testid="campo-usuario" name="usuario" autocomplete="off" />
+
+          <label for="clave">Clave</label>
+          <input id="clave" data-testid="campo-clave" name="clave" type="password" autocomplete="off" />
+
+          <button type="submit" data-testid="boton-ingresar">Ingresar</button>
+        </form>
+
+        <p id="error-login" data-testid="error-login" class="error" hidden></p>
+      </section>
+
+      <section id="pantalla-tareas" data-testid="pantalla-tareas" hidden>
+        <header class="barra">
+          <h1>Tareas</h1>
+          <span data-testid="saludo" id="saludo"></span>
+          <button type="button" data-testid="boton-salir" id="boton-salir">Salir</button>
+        </header>
+
+        <form id="form-tarea" novalidate>
+          <input
+            id="nueva-tarea"
+            data-testid="campo-nueva-tarea"
+            placeholder="¿Qué hay que hacer?"
+            autocomplete="off"
+          />
+          <button type="submit" data-testid="boton-agregar">Agregar</button>
+        </form>
+
+        <ul id="lista-tareas" data-testid="lista-tareas"></ul>
+
+        <footer class="pie">
+          <span data-testid="contador-pendientes" id="contador-pendientes"></span>
+          <button type="button" data-testid="boton-limpiar-completadas" id="boton-limpiar">
+            Limpiar completadas
+          </button>
+        </footer>
+
+        <p id="vacio" data-testid="mensaje-vacio" class="ayuda" hidden>No hay tareas todavía.</p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
