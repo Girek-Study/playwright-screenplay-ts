@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/Girek-Study/playwright-screenplay-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/Girek-Study/playwright-screenplay-ts/actions/workflows/ci.yml)
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-1f5f4f)](LICENSE)
+[![girek-study.com](https://img.shields.io/badge/girek--study.com-1c1c1e)](https://girek-study.com)
 
 Implementación completa del patrón **Screenplay** sobre Playwright, en TypeScript y sin
 Serenity. Unas 400 líneas de framework, cero dependencias más allá de `@playwright/test`,
@@ -246,9 +247,9 @@ Escrito por **Giancarlo Palomino** — Quality Engineer, diez años construyendo
 automatización de pruebas en banca, fintech y salud.
 [LinkedIn](https://www.linkedin.com/in/girekpalomino/)
 
-Forma parte de **Girek Study**, donde publico material abierto sobre automatización de
-pruebas: frameworks que se pueden copiar, decisiones de diseño explicadas y, más adelante,
-clases en vivo.
+Forma parte de **[Girek Study](https://girek-study.com)**, donde publico material abierto
+sobre automatización de pruebas: frameworks que se pueden copiar, decisiones de diseño
+explicadas y, más adelante, clases en vivo.
 
 Si usas esto y algo te resulta incómodo, abre un issue: el diseño mejora con casos reales
 que no anticipé.
